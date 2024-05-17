@@ -10,9 +10,11 @@
         Interested in more information? Fill out the form below and submit it to us.
         We look forward to hearing from you!
     </p>
-
+        
     <!-- insert form here-->
     <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
+        <fieldset>
+            <legend>Personal</legend>
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" />
         <br />
@@ -21,6 +23,9 @@
         <br />
         <label for="email">Email Address</label>
         <input type="email" name="email" id="email" />
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
         <p>How did you hear about us?</p>
         <select name="found" id="found">
             <option value="TV">TV</option>
@@ -29,6 +34,15 @@
             <option value="Google">Google</option>
             <option value="Bing">Bing</option>
         </select>
+        <p>What instruments are you most interested in learning?</p>
+        <input list="instruments" name="instrument" />
+        <datalist id="instruments">
+            <option value="guitar"></option>
+            <option value="piano"></option>
+            <option value="drums"></option>
+            <option value="bass"></option>
+        </datalist>
+        </fieldset>
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
         <button name="showimage" onclick="">Show image</button>
