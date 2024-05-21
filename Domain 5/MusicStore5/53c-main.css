@@ -36,6 +36,8 @@ figcaption {
     border-color:navy;
     border-style:dashed;
     border-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
 }
 a {
     text-decoration: none;
