@@ -4,10 +4,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #777;
-  float: left;
+
 }
 li {
   display: block;
+  float: left;
 }
 li a{
   color: red;
