@@ -18,5 +18,19 @@ li a:hover {
   background-color: #111;
 }
 .active{
-  background-color: #04naa6d;
+  background-color: #04aa6d;
+}
+.dropDown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropDown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropDown:hover .dropDown-content {
+  display: block;
 }
