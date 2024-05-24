@@ -10,7 +10,7 @@ li {
 }
 li a, dropBtn {
   display: inline-block;
-  color: red;
+  color: pink;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
