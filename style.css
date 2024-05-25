@@ -41,4 +41,30 @@ li.dropDown{
 .dropDown:hover .dropDown-content{
   display: block;
 }
+/*left page*/
+.left {
+  border: 4px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #006609;
+  background-color: #006609;
+  position: absolute;
+  left: 20px;
+  margin: 2px;
+  padding: 2px;
+  height: 1500px;
+  width: 45%
+}
+/*right page*/
 
+.right {
+  border: 4px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #006609;
+  background-color: #006609;
+  position: absolute;
+  right: 20px;
+  margin: 2px;
+  padding: 2px;
+  height: 650px;
+  width: 45%;
+}
