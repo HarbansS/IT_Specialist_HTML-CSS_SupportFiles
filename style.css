@@ -51,8 +51,8 @@ li.dropDown{
   left: 20px;
   margin: 2px;
   padding: 2px;
-  height: 1500px;
-  width: 45%
+  height: 800px;
+  width: 25%
 }
 /*right page*/
 
@@ -64,6 +64,6 @@ li.dropDown{
   right: 20px;
   margin: 2px;
   padding: 2px;
-  height: 650px;
-  width: 45%;
+  height: 800px;
+  width: 65%;
 }
